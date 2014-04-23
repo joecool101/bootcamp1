@@ -1,0 +1,36 @@
+.container {
+	height: 400px;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.box1 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+	border-radius: 50%;
+	z-index: 2;
+	left: 20px;
+	float: right;
+}
+
+.box2 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+	z-index: 1;
+	left: 20px;
+	float: right;
+}
+
+.box3 {
+	position: none;
+	width: 0px;
+	height: 0px;
+	background: #b7d84b;
+	border-bottom: 200px solid #b7d84b;
+	border-left: 100px solid white;
+	border-right: 100px solid white;
+}
